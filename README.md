@@ -9,4 +9,5 @@
 * Relocate to local citeseq_tool directory:
 * `cd citeseq_tool`
 * `fastq-dump --split-files SRR5808750`
-
+* `gzip *fastq`
+* `bash cite_seq_count.sh -fqc=SRR5808750_1.fastq.gz -fqf=SRR5808750_2.fastq.gz -it=ADT.txt -bcs=1 -bcl=16 -umis=17 -umil=9 -t=8 -o=SRR5808750_count.txt`
